@@ -27,6 +27,7 @@ Gostou da ideia?
 
 
 * [Dia 01 - Ícone de mídia social em camadas](#id01)
+* [Dia 02 - Animação de Loading](#id02)
 
 
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="id01"></a>
@@ -50,7 +51,7 @@ Gostou da ideia?
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
 
 
-##  Desafio dia 02 - Animação de Loading <a name="id01"></a>
+##  Desafio dia 02 - Animação de Loading <a name="id02"></a>
 ![Dia 01](./dia01/videos/loader.gif)
 
 
