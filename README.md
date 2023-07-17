@@ -36,7 +36,7 @@ Gostou da ideia?
 [Meu codigo](https://github.com/agneloobruno/desafio30DiasDeCSS/tree/main/dia01)
 
 
-[Post LinkedIn]() 
+[Post LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7085603275562975234/) 
 
 
 ##### O que eu aprendi
@@ -50,3 +50,19 @@ Gostou da ideia?
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
 
 
+##  Desafio dia 02 - Animação de Loading <a name="id01"></a>
+![Dia 01](./dia01/videos/loader.gif)
+
+
+[Meu codigo](https://github.com/agneloobruno/desafio30DiasDeCSS/tree/main/dia02)
+
+
+[Post LinkedIn]() 
+
+
+##### O que eu aprendi
+
+
+
+* *[Animations CSS](https://www.w3schools.com/css/css3_animations.asp)*
+* *[@Keyframes CSS](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.php)*
