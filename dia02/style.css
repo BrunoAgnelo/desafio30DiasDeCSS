@@ -1,9 +1,16 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
 body {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: url(./assets/background.png) no-repeat top center/cover;
 }
 
 div.loading {
@@ -16,10 +23,10 @@ div.loading {
 .bolinha {
     width: 12px;
     height: 45px;
-    background-color: #035AA6;
     margin: 0 6px; 
     display: flex;
-    animation: loader 1.5s infinite ease-in-out;
+    background-color: #E8F3FE;
+    animation: loader 2s infinite ease-in-out;
 }
 
 .bolinha:nth-child(2) {
@@ -38,18 +45,19 @@ div.loading {
     animation-delay: calc(1s);
 }
 
-.bolinha:nth-child(6) {
-    animation-delay: calc(1.25s);
-}
+
 
 @keyframes loader {
     0% {
         transform: scale(1);
+        opacity: 0.5;
     }
     50% {
         transform: scale(1.5);
+        opacity: 1;
     }
     100% {
         transform: scale(1);
+        opacity: 0.8;
     }
 }
