@@ -31,7 +31,7 @@ Gostou da ideia?
 
 
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="id01"></a>
-![Dia 01](./dia01/videos/gif.gif)
+![Dia 01](./dia01/videos/hover.gif)
 
 
 [Meu codigo](https://github.com/agneloobruno/desafio30DiasDeCSS/tree/main/dia01)
