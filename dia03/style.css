@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #00d0ff;
+    position: absolute;
+}
+
+.wrapper {
+    height: 100%;
+    width: 50%;
+    background: #000;
+    overflow: hidden;
+    color: #fd02ec;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 2px solid #262626;
+}
+
+.sliding {
+    position: absolute;
+    top: 50%;
+    white-space: nowrap;
+    font-size: 12em;
+    line-height: 220px;
+    overflow: hidden;
+    font-family: ledboard;
+    animation: animate 35s linear infinite;
+}
+
+@font-face {
+    font-family:'ledboard' ;
+    src: url(LEDBDREV.TTF) format(truetype), url(LEDBOARD.TTF) format(truetype);
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(0, -50%);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
